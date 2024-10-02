@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #fff1f2;
+}
+#header .login_left {
+    color: white;
+    margin-left: auto;
+    margin-right: 10px;
+}
+#search{
+    margin: 0 250px;
+}
+#header  > ul{
+    display: flex;
+    padding: 25px 5px;
+    background:#006241;
+    position: sticky;
+    border: #ccc 5px solid;
+    align-items: center;
+    border-radius: 10px;
+}
+#text_search {
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px; 
+}
+#btn_search{
+    padding: 10px;
+    border-radius: 5px;
+    width: 70px;
+}
+#header h2{
+   color: white; 
+}
+#header ul li a{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.container{
+    display: flex;
+    margin: 20px;
+}
+.left{
+    width: 20%;
+    background-color: #ccc;
+    padding: 10px;
+}
+ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.left > h4 {
+    background-color: #006241;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+.left > ul > li {
+    border-radius: 5px;
+    background-color: #FFFF;
+    border-bottom: #ccc solid;
+}
+.left a {
+    padding: 15px 20px;
+    display: block;
+}
+li:hover > .item_cate {
+    display: grid;
+}
+.item_cate > a{
+    color: white;
+    padding: 10px;
+    border-bottom: white solid 2px;
+}
+.item_cate{
+    display: none;
+    position: absolute;
+    background-color: #006241;
+    border-radius: 10px;
+    left: 17%;
+    top: 27%;
+}
+.left {
+    border-radius: 10px;
+}
+#main {
+    width: 80%;
+}
+#main #allbooks {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#main #bookcate {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#main ul{
+    list-style: none;
+    border: 1px solid ;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 250px;
+    background-color: white;
+}
+#main #dkmuonsach h2{
+    text-align: center;
+}
+#main li{
+    margin: 10px;
+    word-wrap: break-word;
+}
+#main img{
+    width: 200px;
+    height: 200px;
+}
+#main >.list-book > li > h2 > a{
+    text-decoration: none;
+    color: black;
+}
+#main >.list-book > li > a{
+    text-decoration: none;
+    color: black;
+    border: 2px solid;
+    background-color: #ccc;
+    padding: 10px;
+}
+#main #dkmuonsach form {
+    margin: 0 auto;
+    background-color: #FFF1F2;
+    max-width: 500px;
+    text-transform: uppercase;
+}
+#main #dkmuonsach form div {
+    padding: 10px;
+}
+#main #dkmuonsach input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+#main .btn_dk{
+    background-color: #18181b;
+    color: #fff7ed;
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+}
+#main #dkmuonsach h2 {
+    margin-bottom: 10px;
+}
+#main .table {
+    width: 1000px;
+    margin: 0 auto;
+}
+#main .table td {
+    background-color: white;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+}
+#main th {
+    background-color: #d1d5db;
+    border-bottom: 1px solid;
+    height: 50px;
+}
+#main h2 {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
